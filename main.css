@@ -7,6 +7,7 @@
     line-height: 1.5rem;
 	color: #3c4043;
 }
+/* reply-edit-delete buttons */
 .reply,.edit,.delete{
     font-family: 'Open Sans',Roboto,Arial,sans-serif;
     font-size: 13px;
@@ -32,6 +33,7 @@
 .button-clicked{
 	color: blue;
 }
+/* Like number */
 span{
 	font-family: 'Open Sans',Roboto,Arial,sans-serif;
     font-size: .775rem;
@@ -59,29 +61,30 @@ ul {
   list-style-type: none;
 }
 
+/* comment box */
 .comment-box {
-	width: 500px;
+	width: 50%;
 	font-size:15px;
 	padding: 10px;
 	margin-bottom: 10px;
 }
-
+/* comment name */
 .comment-name {
 	color:blue;
 	margin-top:20px;
 }
-
+/* name box */
 .name {
-	width: 500px;
+	width: 50%;
 	height: 30px;
 	font-size: 15px;
 	padding: 10px;
 } 
-
-.hr{
-	color:rgba(0,0,0,0.15);
-	width:600px;
-}
+/* HR line */
+hr{
+	color:rgb(0, 0, 0);
+	width:100%;
+} 
 
 .comment-header {
 	display:flex;width:50%;justify-content:space-between;
@@ -93,3 +96,11 @@ ul {
 a{
 	text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+	.name {
+		width: 100%;
+	} 
+	.comment-box {
+		width: 100%;
+	}
+  }
