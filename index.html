@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>	Comment Widget	</title>
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS main file -->
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script
+  		src="https://code.jquery.com/jquery-3.4.1.min.js"
+  		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous">
+	</script>
+
+	
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.308);">
+
+	<div style="margin-top: 20px;" class="container">
+	<!-- Heading -->
+	<h1>Comment Widget</h1>
+		<!-- Form -->
+		<form id="cmtForm">
+			<div class="form-group">
+				<input type="text" placeholder="Name" id="name" class="name" required/>
+			</div>
+			<div>
+				<textarea rows="3" id="comment" class="comment-box" placeholder="Write a comment..." required></textarea>
+				<div>
+					<button type="submit" id="add-comment" class="btn btn-primary">Submit</button>
+					<button type="reset" value="Reset" class="add-btn-r btn btn-secondary">Reset</button>
+				</div>
+			</div>
+		</form>
+
+		<!-- Comments -->
+		<div style="padding-top: 10px;">
+			<h3 style="float: left;">Comments (</h3> 		
+			<h3 style="float: left;" class="count">0 <h3>)</h3></h3>
+			
+		</div>
+		<ul id="commentsList">
+		</ul>
+	</div>
+
+	<!-- Script JS -->
+	<script src="main.js"></script>
+
+</body>
+</html>

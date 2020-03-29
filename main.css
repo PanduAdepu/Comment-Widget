@@ -1,0 +1,95 @@
+/* comments */
+#commentsList{
+	letter-spacing: .00025em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+	color: #3c4043;
+}
+.reply,.edit,.delete{
+    font-family: 'Open Sans',Roboto,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.25rem;
+	color: #1a73e8;
+	text-decoration: none;
+	padding-left: 10px;
+}
+/* Like button */
+.like{
+	color: grey;
+	padding-right: 5px;
+}
+.like:hover{
+	color: black;
+}
+.like:active {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+.button-clicked{
+	color: blue;
+}
+span{
+	font-family: 'Open Sans',Roboto,Arial,sans-serif;
+    font-size: .775rem;
+    font-weight: 500;
+    color: #1a73e8;
+} 
+.reply-name{
+	letter-spacing: .01785714em;
+    font-family: 'Open Sans', sans-serif,Roboto,Arial;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #1a73e8;
+}
+/* Prile Pic */
+.profileimg{
+	border: none;
+    border-radius: 100px;
+	width: 50px;
+	margin-right: 20px;
+	float:left;
+}
+	
+ul {
+  list-style-type: none;
+}
+
+.comment-box {
+	width: 500px;
+	font-size:15px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.comment-name {
+	color:blue;
+	margin-top:20px;
+}
+
+.name {
+	width: 500px;
+	height: 30px;
+	font-size: 15px;
+	padding: 10px;
+} 
+
+.hr{
+	color:rgba(0,0,0,0.15);
+	width:600px;
+}
+
+.comment-header {
+	display:flex;width:50%;justify-content:space-between;
+}
+
+.comment-input-row {
+	display:flex;margin-top:20px;margin-bottom:10px;
+}
+a{
+	text-decoration: none;
+}
